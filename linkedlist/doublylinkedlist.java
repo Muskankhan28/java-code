@@ -44,7 +44,7 @@ public class doublylinkedlist {
         }
 
 
-        // remove last 
+        // remove first 
 
         public int removefirst(){
             // base case
@@ -65,6 +65,8 @@ public class doublylinkedlist {
             size--;
             return val;
         }
+
+        // remove last
 
         public int removelast(){
             if(head == null){
@@ -95,6 +97,9 @@ public class doublylinkedlist {
             System.out.println("null");
         }
 
+
+        // reverse a doubly linkedlist  
+
         public void reverse(){
             Node curr = head;
             Node prev = null;
@@ -123,7 +128,7 @@ public class doublylinkedlist {
         dll.addlast(2);
         dll.addlast(3);
         dll.addlast(4);
-        dll.addlast(5);
+        dll.addlast(5); 
         dll.printDoublyLL();
         // dll.removefirst();
         // dll.removelast();
