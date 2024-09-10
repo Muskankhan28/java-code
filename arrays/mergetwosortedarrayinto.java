@@ -1,9 +1,8 @@
 package arrays;
 
 public class mergetwosortedarrayinto {
-
     // merge two sorted array leeetcode 88 
-    
+
     public static void MergeArrays(int nums1[] , int m , int nums2[] , int n){
         int i = m-1;
         int j = n-1;
@@ -30,7 +29,6 @@ public class mergetwosortedarrayinto {
         for (int i : nums1) {
             System.out.print(i+ " ");  
         }
-        
     }
     
 }
