@@ -1,7 +1,5 @@
 package recrussions;
 
-import geeks.trailingzeroes;
-
 public class questions {
 
     //  print the numbers in the decreasing order
