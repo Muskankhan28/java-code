@@ -16,7 +16,7 @@ public class quecombinationsumI {
             findcombinations(indx, arr, target-arr[indx], ans, ds);
             ds.remove(ds.size()-1);
         }
-        // not pick
+        // not pick case
         findcombinations(indx+1, arr, target, ans, ds);
     }
 
@@ -32,7 +32,7 @@ public class quecombinationsumI {
         List<List<Integer>> result = combinationsumI(arr, target);
         for (List<Integer> i : result) {
             System.out.println(i);
-            
+
         }
     }
     
