@@ -33,8 +33,8 @@ public class permutationofanarrayBruteApproach {
     }
     public static void main(String[] args) {
         int arr[] = {1,2,3};
-        List<List<Integer>>ans = permutations(arr);
-        for (List<Integer> i : ans) {
+        List<List<Integer>>result = permutations(arr);
+        for (List<Integer> i : result) {
             System.out.print(i+ " ");
         }
     }
